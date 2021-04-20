@@ -1,0 +1,45 @@
+JAVASCRIPT
+
+
+ VARIABLES
+  Una Variable dentro del lenguaje JS sirve para darle valor a algo, por ejemplo: 
+    var algo = 'valor';
+
+    var resultado = 1 + 1;
+    si tipeamos 'resultado' el command nos respondera 2. (Nota: se utiliza signo = para dar valor).
+
+
+STRINGS
+ Cualquier texto entre comillas se denomina Strings. (Siempre se definen entre comillas, los numeros NO).
+
+
+FUNCIONES
+ Sirven para fusionar o combinar Variables. Para luego invocar de forma predeterminada.
+  Ejemplo:  
+    -Function Saludo(nombre){
+     Console.log('Hola ' + nombre);}
+
+   Console: Saludo(Axel) //Hola Axel
+  
+   -Function MiFunción(Argumento){Código}
+ Lo que colocamos entre parentesis se denomina Argumento.
+
+ Podemos utilizar 'return' para que la funcion nos devuelva algo.
+  Ejemplo: 
+    -Function Suma(a, b){
+    var resultado = a + b;
+    return resultado;
+    } 
+    -Suma(3, 6) //9
+
+
+DECLARACIONES 'IF'
+ Sirven para indicar condiciones y en base a eso dar un resultado.
+  Ejemplo:
+    -Function Mayor(edad){
+    if (edad > 18){return Si;}
+    return No;
+    }
+
+VALORES BOOLEANOS ('True', 'False')
+ Indicamos que algo es o no es, lo usamos para decir que algo es 'verdadero' o 'falso'.
